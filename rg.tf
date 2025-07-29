@@ -3,3 +3,9 @@ resource "azurerm_resource_group" "rg" {
     location = "East US"
 
 }
+
+resource "azurerm_resource_group" "rg2" {
+    name     = "kishore-rg2"
+    location = "East US"
+
+}
